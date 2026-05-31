@@ -1,0 +1,87 @@
+/*!
+ * Giscus Kawaii Dark Theme
+ */
+
+main {
+  /* 语法高亮 */
+  --color-prettylights-syntax-comment: #6a5e72;
+  --color-prettylights-syntax-constant: #f0a0be;
+  --color-prettylights-syntax-entity: #c8b0e0;
+  --color-prettylights-syntax-keyword: #f0a0be;
+  --color-prettylights-syntax-string: #a0c8b0;
+  --color-prettylights-syntax-variable: #e8c0a0;
+  --color-prettylights-syntax-regex: #a0c8e0;
+  --color-prettylights-syntax-markup-deleted: #f0a0be;
+  --color-prettylights-syntax-markup-inserted: #a0c8b0;
+  --color-prettylights-syntax-markup-changed: #e8c0a0;
+
+  /* 按钮 */
+  --color-btn-text: #d0c8d5;
+  --color-btn-bg: rgba(40, 35, 45, 0.7);
+  --color-btn-border: rgba(232, 160, 184, 0.15);
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: rgba(232, 160, 184, 0.08);
+  --color-btn-hover-border: rgba(232, 160, 184, 0.3);
+  --color-btn-active-bg: rgba(232, 160, 184, 0.1);
+  --color-btn-active-border: rgba(232, 160, 184, 0.3);
+  --color-btn-selected-bg: rgba(232, 160, 184, 0.1);
+
+  /* 主按钮 */
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #e8829e;
+  --color-btn-primary-border: #e8829e;
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: #f0a0be;
+  --color-btn-primary-hover-border: #f0a0be;
+  --color-btn-primary-active-bg: #e8829e;
+  --color-btn-primary-active-border: #e8829e;
+  --color-btn-primary-selected-bg: #e8829e;
+
+  /* 前景色 */
+  --color-fg-default: #e0d8e8;
+  --color-fg-muted: #a898b0;
+  --color-fg-subtle: #6a5e72;
+
+  /* 背景色 */
+  --color-canvas-default: rgba(26, 21, 32, 0.85);
+  --color-canvas-subtle: rgba(40, 35, 45, 0.6);
+  --color-canvas-inset: rgba(232, 160, 184, 0.04);
+  --color-canvas-overlay: rgba(36, 30, 42, 0.9);
+
+  /* 边框 */
+  --color-border-default: rgba(232, 160, 184, 0.12);
+  --color-border-muted: rgba(232, 160, 184, 0.08);
+
+  /* 中性色 */
+  --color-neutral-muted: rgba(232, 160, 184, 0.06);
+
+  /* 强调色 */
+  --color-accent-fg: #f0a0be;
+  --color-accent-emphasis: #e8829e;
+  --color-accent-muted: rgba(232, 160, 184, 0.15);
+  --color-accent-subtle: rgba(232, 160, 184, 0.08);
+
+  /* 成功色 */
+  --color-success-fg: #a0c8b0;
+  --color-success-emphasis: #a0c8b0;
+
+  /* 注意色 */
+  --color-attention-fg: #e8c0a0;
+  --color-attention-emphasis: #e8c0a0;
+
+  /* 危险色 */
+  --color-danger-fg: #f0a0be;
+  --color-danger-emphasis: #e8829e;
+
+  /* 阴影 */
+  --color-shadow-small: 0 1px 2px rgba(0, 0, 0, 0.15);
+  --color-shadow-medium: 0 3px 6px rgba(0, 0, 0, 0.2);
+  --color-shadow-large: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  /* 反应按钮 */
+  --color-social-reaction-bg: rgba(232, 160, 184, 0.04);
+  --color-social-reaction-bg-hover: rgba(232, 160, 184, 0.08);
+  --color-social-reaction-bg-reacted: rgba(232, 160, 184, 0.1);
+}
