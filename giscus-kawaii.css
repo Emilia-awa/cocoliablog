@@ -1,0 +1,210 @@
+/*!
+ * Giscus Kawaii Theme
+ * 匹配网站的粉色/薰衣草色调风格
+ */
+
+/* 整体容器 */
+.giscus {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+/* 背景色 */
+.giscus .main {
+  background: transparent !important;
+}
+
+.giscus .color-bg-canvas {
+  background-color: transparent !important;
+}
+
+.giscus .color-bg-canvas-inset {
+  background-color: transparent !important;
+}
+
+.giscus .color-bg-overlay {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* 文字颜色 */
+.giscus .color-fg-default {
+  color: #5a4a5e !important;
+}
+
+.giscus .color-fg-muted {
+  color: #8a7a8e !important;
+}
+
+.giscus .color-fg-subtle {
+  color: #b0a6b8 !important;
+}
+
+/* 边框 */
+.giscus .color-border-default {
+  border-color: rgba(232, 160, 184, 0.2) !important;
+}
+
+.giscus .color-border-muted {
+  border-color: rgba(232, 160, 184, 0.1) !important;
+}
+
+/* 按钮样式 */
+.giscus .btn {
+  border-radius: 999px !important;
+  border-color: rgba(232, 160, 184, 0.25) !important;
+  color: #6a5a6e !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.giscus .btn:hover {
+  background-color: rgba(232, 160, 184, 0.1) !important;
+  border-color: rgba(232, 160, 184, 0.4) !important;
+}
+
+/* 主按钮（提交评论） */
+.giscus .btn-primary {
+  background-color: #e8a0b8 !important;
+  border-color: #e8a0b8 !important;
+  color: #fff !important;
+}
+
+.giscus .btn-primary:hover {
+  background-color: #e8829e !important;
+  border-color: #e8829e !important;
+}
+
+/* 输入框 */
+.giscus .form-control {
+  border-radius: 0.75rem !important;
+  border-color: rgba(232, 160, 184, 0.2) !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+  color: #5a4a5e !important;
+  transition: all 0.2s ease !important;
+}
+
+.giscus .form-control:focus {
+  border-color: #e8a0b8 !important;
+  box-shadow: 0 0 0 3px rgba(232, 160, 184, 0.12) !important;
+}
+
+.giscus .form-control::placeholder {
+  color: #b0a6b8 !important;
+}
+
+/* 评论内容区域 */
+.giscus .comment-body {
+  border-radius: 0.75rem !important;
+  background: rgba(255, 255, 255, 0.4) !important;
+  border: 1px solid rgba(232, 160, 184, 0.1) !important;
+  padding: 0.75rem 1rem !important;
+}
+
+/* 头像 */
+.giscus .avatar {
+  border-radius: 999px !important;
+  border: 2px solid rgba(232, 160, 184, 0.2) !important;
+}
+
+/* 反应按钮 */
+.giscus .ReactionButton {
+  border-radius: 999px !important;
+  border-color: rgba(232, 160, 184, 0.15) !important;
+  transition: all 0.2s ease !important;
+}
+
+.giscus .ReactionButton:hover {
+  background-color: rgba(232, 160, 184, 0.08) !important;
+  border-color: rgba(232, 160, 184, 0.3) !important;
+}
+
+.giscus .ReactionButton--active {
+  background-color: rgba(232, 160, 184, 0.15) !important;
+  border-color: rgba(232, 160, 184, 0.4) !important;
+}
+
+/* 链接颜色 */
+.giscus a {
+  color: #e8829e !important;
+  text-decoration: none !important;
+}
+
+.giscus a:hover {
+  color: #e8a0b8 !important;
+  text-decoration: underline !important;
+}
+
+/* 时间戳 */
+.giscus .relative-time {
+  color: #b0a6b8 !important;
+}
+
+/* 加载动画 */
+.giscus .spinner {
+  color: #e8a0b8 !important;
+}
+
+/* 标签/徽章 */
+.giscus .Label {
+  border-radius: 999px !important;
+  background-color: rgba(232, 160, 184, 0.1) !important;
+  color: #e8829e !important;
+  border: 1px solid rgba(232, 160, 184, 0.2) !important;
+}
+
+/* 暗色模式 */
+.dark .giscus .color-bg-overlay {
+  background-color: rgba(36, 30, 42, 0.8) !important;
+}
+
+.dark .giscus .color-fg-default {
+  color: #e0d8e8 !important;
+}
+
+.dark .giscus .color-fg-muted {
+  color: #a898b0 !important;
+}
+
+.dark .giscus .color-fg-subtle {
+  color: #6a5e72 !important;
+}
+
+.dark .giscus .color-border-default {
+  border-color: rgba(232, 160, 184, 0.12) !important;
+}
+
+.dark .giscus .color-border-muted {
+  border-color: rgba(232, 160, 184, 0.08) !important;
+}
+
+.dark .giscus .btn {
+  color: #d0c8d5 !important;
+  border-color: rgba(232, 160, 184, 0.15) !important;
+}
+
+.dark .giscus .btn:hover {
+  background-color: rgba(232, 160, 184, 0.08) !important;
+}
+
+.dark .giscus .form-control {
+  background: rgba(40, 35, 45, 0.6) !important;
+  border-color: rgba(232, 160, 184, 0.12) !important;
+  color: #e0d8e8 !important;
+}
+
+.dark .giscus .form-control:focus {
+  border-color: #e8829e !important;
+}
+
+.dark .giscus .comment-body {
+  background: rgba(40, 35, 45, 0.4) !important;
+  border-color: rgba(232, 160, 184, 0.08) !important;
+}
+
+.dark .giscus a {
+  color: #f0a0be !important;
+}
+
+.dark .giscus .ReactionButton--active {
+  background-color: rgba(232, 160, 184, 0.1) !important;
+}
