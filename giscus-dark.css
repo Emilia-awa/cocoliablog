@@ -2,32 +2,9 @@
  * Giscus Kawaii Dark Theme
  */
 
-/* 圆角样式 - 使用 Giscus 实际的类名 */
-.gsc-comment-box-textarea,
-.gsc-comment-box-textarea-extras {
+/* 评论框圆角 */
+.gsc-comment-box-textarea {
   border-radius: 0.75rem !important;
-}
-
-.btn,
-.btn-primary {
-  border-radius: 999px !important;
-}
-
-.gsc-reply-box button {
-  border-radius: 0.75rem !important;
-}
-
-.markdown-body {
-  border-radius: 0.75rem !important;
-}
-
-.gsc-comment-box-preview {
-  border-radius: 0.75rem !important;
-}
-
-.gsc-avatar,
-.gsc-avatar img {
-  border-radius: 999px !important;
 }
 
 main {
